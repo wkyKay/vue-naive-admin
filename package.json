@@ -10,10 +10,12 @@
     "lint:fix": "eslint --fix --ext .js,.vue ."
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "@vueuse/core": "^10.9.0",
     "axios": "^1.6.7",
     "dayjs": "^1.11.10",
     "echarts": "^5.5.0",
+    "element-plus": "^2.6.1",
     "lodash-es": "^4.17.21",
     "naive-ui": "^2.38.1",
     "pinia": "^2.1.7",

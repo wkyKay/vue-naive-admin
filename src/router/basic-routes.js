@@ -37,4 +37,14 @@ export const basicRoutes = [
       layout: 'empty',
     },
   },
+//我加的compression
+  {
+    name: 'compression',
+    path: '/prune/setting/compression',
+    component:() => import('@/views/prune/compression.vue'),
+    meta: {
+      title: '压缩',
+      layout: 'normal',
+    }
+  }
 ]

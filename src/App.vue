@@ -47,7 +47,7 @@ const appStore = useAppStore()
 if (appStore.layout === 'default') appStore.setLayout('')
 const Layout = computed(() => {
   if (!route.matched?.length) return null
-  return getLayout(route.meta?.layout || appStore.layout)
+  return getLayout(route.meta?.layout || appStore.layout)//appStore.layout = normal
 })
 
 function setupCssVar() {
