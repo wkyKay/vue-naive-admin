@@ -12,7 +12,7 @@ export const basicRoutes = [
   {
     name: 'Home',
     path: '/',
-    component: () => import('@/views/home/index.vue'),
+    component: () => import('@/views/prune/index.vue'),
     meta: {
       title: '首页',
     },
@@ -38,12 +38,24 @@ export const basicRoutes = [
     },
   },
 //我加的compression
+
+
   {
     name: 'compression',
     path: '/prune/setting/compression',
     component:() => import('@/views/prune/compression.vue'),
     meta: {
       title: '压缩',
+      layout: 'normal',
+    }
+  },
+
+  {
+    name: 'analysis',
+    path: '/prune/setting/analysis',
+    component:() => import('@/views/prune/analysis.vue'),
+    meta: {
+      title: '结果分析',
       layout: 'normal',
     }
   }

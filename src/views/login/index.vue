@@ -81,7 +81,7 @@
             ghost
             @click="quickLogin()"
           >
-            一键体验
+            注册
           </n-button>
 
           <n-button
@@ -137,6 +137,11 @@ function quickLogin() {
 
 const isRemember = useStorage('isRemember', true)
 const loading = ref(false)
+
+async function handleSignup(){
+
+}
+
 async function handleLogin(isQuick) {
   const { username, password, captcha } = loginInfo.value
   if (!username || !password) return $message.warning('请输入用户名和密码')

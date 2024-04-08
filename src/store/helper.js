@@ -28,7 +28,8 @@ export async function getPermissions() {
   } catch (error) {
     console.error(error)
   }
-  return basePermissions.concat(asyncPermissions)
+  // return basePermissions.concat(asyncPermissions)
+  return asyncPermissions;
 }
 
 

@@ -1,0 +1,31 @@
+{
+  "cifar10": [
+    {"id": 0, "name":"example", "example_input": [null,1,1,1]}
+  ],
+  "cifar100": [{"id": 0, "name":"example", "example_input": [null,1,1,1]}],
+  "ImageNet": [
+    { "id": 0, "name": "resnet18", "example_input": [null, 3, 224, 224] },
+    { "id": 1, "name": "resnet50", "example_input": [null, 3, 224, 224] },
+    { "id": 2, "name": "densenet121", "example_input": [null, 3, 224, 224] },
+    { "id": 3, "name": "mobilenet_v2", "example_input": [null, 3, 224, 224] },
+    { "id": 4, "name": "googlenet", "example_input": [null, 3, 224, 224] },
+    { "id": 5, "name": "inception_v3", "example_input": [null, 3, 299, 299] },
+    { "id": 6, "name": "squeezenet1_1", "example_input": [null, 3, 224, 224] },
+    { "id": 7, "name": "vgg16_bn", "example_input": [null, 3, 224, 224] },
+    { "id": 8, "name": "vgg19_bn", "example_input": [null, 3, 224, 224] },
+    { "id": 9, "name": "mnasnet1_0", "example_input": [null, 3, 224, 224] },
+    { "id": 10, "name": "alexnet", "example_input": [null, 3, 224, 224] },
+    { "id": 11, "name": "convnext_base", "example_input": [null, 3, 224, 224] },
+    { "id": 12, "name": "efficientnet_b0", "example_input": [null, 3, 224, 224] },
+    { "id": 13, "name": "resnet101", "example_input": [null, 3, 224, 224] },
+    { "id": 14, "name": "resnet152", "example_input": [null, 3, 224, 224] },
+    { "id": 15, "name": "resnet18", "example_input": [null, 3, 224, 224] },
+    { "id": 16, "name": "resnet34", "example_input": [null, 3, 224, 224] },
+    { "id": 17, "name": "densenet161", "example_input": [null, 3, 224, 224] },
+    { "id": 18, "name": "mnasnet0_5", "example_input": [null, 3, 224, 224] },
+    { "id": 19, "name": "regnet_x_16gf", "example_input": [null, 3, 224, 224] },
+    { "id": 20, "name": "vgg11", "example_input": [null, 3, 224, 224] }
+  ],
+  "modelnet40":[{"id": 0, "name":"example", "example_input": [null,1,1,1]}]
+
+}
