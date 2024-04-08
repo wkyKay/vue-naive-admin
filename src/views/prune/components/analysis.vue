@@ -15,7 +15,7 @@
 <script>
 import * as echarts from 'echarts'
 import AppPage from '@/components/common/AppPage.vue'
-import { useAnalysisStore } from '@/store'
+import { useAnalysisStore } from '@/store/index.js'
 export default {
   name: 'Analysis',
   components: { AppPage },

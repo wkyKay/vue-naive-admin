@@ -171,7 +171,6 @@
 
 <script>
 import AppPage from '@/components/common/AppPage.vue'
-import SettingBar from '@/views/prune/components/SettingBar.vue'
 import { TreeSelect } from 'ant-design-vue'
 import { shallowRef } from 'vue'
 import { Codemirror } from 'vue-codemirror'

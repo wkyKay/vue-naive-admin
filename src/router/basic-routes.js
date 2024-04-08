@@ -43,7 +43,7 @@ export const basicRoutes = [
   {
     name: 'compression',
     path: '/prune/setting/compression',
-    component:() => import('@/views/prune/compression.vue'),
+    component:() => import('@/views/prune/compression/compression.vue'),
     meta: {
       title: '压缩',
       layout: 'normal',
@@ -53,7 +53,7 @@ export const basicRoutes = [
   {
     name: 'analysis',
     path: '/prune/setting/analysis',
-    component:() => import('@/views/prune/analysis.vue'),
+    component:() => import('@/views/prune/components/analysis.vue'),
     meta: {
       title: '结果分析',
       layout: 'normal',

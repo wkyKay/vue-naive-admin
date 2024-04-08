@@ -86,8 +86,8 @@
 <script>
 import AppPage from '@/components/common/AppPage.vue'
 import pako from 'pako'
-import { useModelStore, useAnalysisStore} from '@/store'
-import Analysis from '@/views/prune/analysis.vue'
+import { useModelStore, useAnalysisStore} from '@/store/index.js'
+import Analysis from '@/views/prune/components/analysis.vue'
 
 export default {
   name: 'compression',
